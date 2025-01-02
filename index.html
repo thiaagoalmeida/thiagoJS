@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor BRL <> ARS </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class= "logo" href="/"> Conversor BR <-> AR</a>
+            <ul class="nav-list">
+                <li><a href="/"> Conversor </a></li>
+                <li><a href="/"> Sobre </a></li>
+                <li><a href="/"> Contato </a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+        <!-- Formulário para o conversor -->
+        <form id="conversorForm">
+            <label for="valorBr">Digite o valor em BRL:</label>
+            <input type="number" id="valorBr" name="valorBr" required placeholder="Ex: 100">
+            <button type="submit">Converter</button>
+        </form>
+
+        <!-- Exibição do resultado -->
+        <div id="resultado"></div>
+    </main>
+    <script src = "scripts.js"></script>
+</body>
+</html>
